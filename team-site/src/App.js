@@ -14,7 +14,7 @@ function App() {
             element={
               <div style={{ padding: '2rem' }}>
                 <h1>Testing Navbar</h1>
-                <p>This is a temporary placeholder. Your main page will go here later.</p>
+                <p>This is a temporary placeholder. Main page will go here later.</p>
               </div>
             }
           />
