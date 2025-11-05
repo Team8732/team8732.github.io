@@ -5,8 +5,37 @@
 }
 
 .navbar {
-    background: #aaa;
+    background: #ffffff;
     box-shadow: 0 0 5px #000;
 
-    
+    width: 100%;
+    margin: 0 auto;
+    padding: .5rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    display: block;
+    transform: translateY(.15rem) translateX(.1rem);
+}
+
+/* note to edit these colors */
+.navbar a:not(.navbar-logo) {
+    color: rgb(0, 17, 71); 
+    font-size: 1.2rem;
+    padding: 0.4rem .9rem;
+    display: block;
+    border-radius: 10rem;
+}
+
+
+.navbar a:not(.navbar-logo):hover,
+.navbar a:not(.navbar-logo):focus,
+.navbar a:not(.navbar-logo):active {
+    background-color: rgb(234, 234, 234);
 }
