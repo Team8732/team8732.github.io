@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: #aaa;
+    box-shadow: 0 0 5px #000;
+
+    
+}
