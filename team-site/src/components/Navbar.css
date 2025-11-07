@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    z-index: 1000;
 }
 
 .navbar-container {
@@ -25,7 +27,7 @@
 
 .navbar-logo img {
     display: block;
-    transform: translateY(.15rem) translateX(.1rem);
+    transform: translateY(.1rem) translateX(.1rem);
 }
 
 /* note to edit these colors */
@@ -36,7 +38,6 @@
     display: block;
     border-radius: 10rem;
 }
-
 
 .navbar a:not(.navbar-logo):hover,
 .navbar a:not(.navbar-logo):focus,

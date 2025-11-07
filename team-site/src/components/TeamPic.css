@@ -1,0 +1,16 @@
+.team-container {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.team-container img {
+    width: 100vw;
+    object-position: top center; 
+    object-fit: cover;
+    transform: translate(-8vw, 12%) scale(1.4);
+    transform-origin: center 60%;
+    display: block;
+}
