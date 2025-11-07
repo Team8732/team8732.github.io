@@ -7,8 +7,8 @@ export default function TeamPic() {
   useEffect(() => {
 
     setTimeout(() => {
-          setGateState('revealed');
-        }, 1000); 
+        setGateState('revealed');
+    }, 1000); 
 
     setTimeout(() => {
         setGateState('unlocked');

@@ -17,34 +17,9 @@
   object-fit: cover;
   object-position: top center;
   transform: translate(-9vw, 12%) scale(1.4);
-  transform-origin: center 70%;
+  transform-origin: center 75%;
   display: block;
   transition: filter 0.6s ease, transform 0.3s ease;
-}
-
-@media (max-height: 700px) {
-  .team-container img {
-    transform: translate(-9vw, 5%) scale(1.6);
-    object-position: 50% 30%; /* adjust vertical position to show more of the middle */
-  }
-}
-
-@media (max-height: 600px) {
-  .team-container {
-    padding-top: 10vh; /* reduce top padding */
-  }
-  .team-container img {
-    transform: translate(-9vw, 0) scale(1.6);
-    object-position: 50% 35%;
-  }
-}
-
-/* When both short and narrow, prioritize width coverage */
-@media (max-height: 600px) and (max-width: 768px) {
-  .team-container img {
-    transform: translate(-5vw, 0) scale(1.8);
-    object-position: 50% 40%;
-  }
 }
 
 .team-container.revealed img,
@@ -54,6 +29,7 @@
 
 .team-message {
   position: absolute;
+  padding-top: 10%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -35%);
