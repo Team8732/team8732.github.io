@@ -6,23 +6,14 @@ export default function TeamPic() {
 
   useEffect(() => {
 
-    const handleScrollAttempt = () => {
-      if (gateState === 'initial') {
-        setGateState('revealed');
-
-        setTimeout(() => {
-          setGateState('unlocked');
+    setTimeout(() => {
+          setGateState('revealed');
         }, 1000); 
-      }
-    };
 
-    window.addEventListener('wheel', handleScrollAttempt, { once: true });
-    window.addEventListener('touchstart', handleScrollAttempt, { once: true });
+    setTimeout(() => {
+        setGateState('unlocked');
+    }, 1000); 
 
-    return () => {
-      window.removeEventListener('wheel', handleScrollAttempt);
-      window.removeEventListener('touchstart', handleScrollAttempt);
-    };
   }, [gateState]);
 
   return (
