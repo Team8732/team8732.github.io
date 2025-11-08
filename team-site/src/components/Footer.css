@@ -59,12 +59,12 @@
 
 .footer-section.right {
   display: flex;
-  align-items: flex-start; 
+  justify-content: flex-end; 
   gap: 0.5rem;
-  margin-left: -1rem; 
+  margin-left: auto; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 875px) {
   .footer-section.right {
     align-items: center;
     margin-left: 0;
