@@ -13,6 +13,9 @@ function HomeInfo() {
                 <p>
                     We are TRINITY FORCE, a team of passionate teen girls who strive to lead with heart and build with purpose.
                 </p>
+
+                {button && <Button buttonStyle='btn--outline' link='/about/team'>Meet the Team</Button>}
+
             </div>
             <div className="image">
                 <img src="/images/trinity_logo.png" alt="Trinity Force Logo" />
