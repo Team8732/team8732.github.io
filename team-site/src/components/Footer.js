@@ -29,7 +29,7 @@ function Footer() {
 
         <div className="footer-section right">
             <a href="https://www.firstinspires.org/programs/frc/" target="_blank" rel="noopener noreferrer">
-                <img src="/images/first-logo.png" alt="FIRST Logo" />
+                <img src="/images/first-logo.png" alt="FIRST Logo" className = "footer-logo"/>
             </a>
             <img src="/images/team-logo.png" alt="Team Logo" className="footer-logo" />
         </div>
