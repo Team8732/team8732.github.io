@@ -32,3 +32,16 @@
 h1 {
     font-size: 4rem;
 }
+
+.hero-overlay,
+.hero-content {
+  opacity: 0;
+  animation: fadeIn 0.4s ease-out forwards;
+  animation-delay: 0.1s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
