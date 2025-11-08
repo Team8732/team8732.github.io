@@ -19,15 +19,31 @@ export const Button = ({
         const checkButtonSize = SIZES.includes(buttonSize) ?
         buttonSize : SIZES[0];
 
-        return (
-            <Link to={link} className='btn-mobile'>
-                <button
-                className={`btn ${checkButtonStyle} ${checkButtonSize}`}
-                onClick={onClick}
-                type={type}
-                >
-                    {children}
-                </button>
+        const isExternal = link?.startsWith('http');
+
+        const buttonContent = (
+            <button
+            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+            onClick={onClick}
+            type={type}
+            >
+            {children}
+            </button>
+        );
+
+        return isExternal ? (
+            <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-mobile"
+            >
+            {buttonContent}
+            </a>
+        ) : (
+            <Link to={link} className="btn-mobile">
+            {buttonContent}
             </Link>
-        )
+        );
+
     }

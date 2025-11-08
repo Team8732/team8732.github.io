@@ -40,12 +40,14 @@
     padding: 0.4rem .9rem;
     display: block;
     border-radius: 10rem;
+    text-decoration: none;
 }
 
 .navbar a:not(.navbar-logo):hover,
 .navbar a:not(.navbar-logo):focus,
 .navbar a:not(.navbar-logo):active {
-    color: var(--primary-color)
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .menu-icon {
@@ -89,4 +91,42 @@
     .navbar-container.active {
         top: 12%;
     }
+
+    .submenu {
+        transform: translateX(-100px) translateY(-40px);
+        padding: 0;
+    }
+}
+
+.menu-item.sub {
+  position: relative;
+  display: inline-block;
+}
+
+.submenu {
+  position: absolute;
+  top: 100%;
+  background: var(--bg-color);
+  margin-left: -4%;
+  padding: 0.5em 1em;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu-link {
+  padding: 0.5em 0;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.submenu-link:hover,
+.submenu-link:focus,
+.submenu-link:active {
+  text-decoration: none !important;
+}
+
+.menu-link svg {
+    vertical-align: middle;
 }
