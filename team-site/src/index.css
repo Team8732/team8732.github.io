@@ -9,7 +9,7 @@
   --bg-color: #e1e3e5;
   --primary-color: #004080;
   --secondary-color: #96cbee;
-  --link-color: #7cb5ee;
+  --accent-color: #7cb5ee;
 }
 
 [data-theme="dark"] {
@@ -17,7 +17,7 @@
   --bg-color: #1a1c1e;
   --primary-color: #80bfff;
   --secondary-color: #114669;
-  --link-color: #114669;
+  --accent-color: #114669;
 }
 
 

@@ -1,0 +1,24 @@
+.info-bar {
+  padding: 4rem 2rem;
+  text-align: center;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease;
+}
+
+.info-bar:nth-of-type(odd) {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.info-bar h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.info-bar p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
