@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Funnel+Display:wght@300..800&family=Indie+Flower&display=swap');
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 :root {
 	--font-audiowide: 'Audiowide', sans-serif;
 	--font-funnel: 'Funnel Display', sans-serif;

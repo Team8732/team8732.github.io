@@ -28,7 +28,7 @@ export default function TeamPic() {
     <div className={`team-container ${gateState}`}>
       <div className="image-wrapper">
         <img
-          src="/images/team_image.JPG"
+          src="/images/hero_image.JPG"
           alt="a lovely picture of my lovely team"
           style={{
             transform: `translate(-9vw, calc(12% + ${offsetY * 0.2}px)) scale(1.3)`,
