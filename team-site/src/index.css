@@ -16,7 +16,7 @@ body {
   --bg-color: #e1e3e5;
   --primary-color: #004080;
   --secondary-color: #96cbee;
-  --accent-color: #7cb5ee;
+  --accent-color: #5d95cd;
 }
 
 [data-theme="dark"] {
@@ -28,7 +28,7 @@ body {
 }
 
 
-body {
+body, button {
 	font-family: var(--font-funnel);
 }
 

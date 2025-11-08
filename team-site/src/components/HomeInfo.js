@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './HomeInfo.css'
+import { Button } from './Button';
 
 function HomeInfo() {
+  const [button, setButton] = useState(true);
+
   return (
     <>
         <section className="info-bar team">
@@ -40,6 +43,8 @@ function HomeInfo() {
                     FIRST Robotics Competition is an international high school robotics program that combines engineering, teamwork, and real-world impact. 
                     Each year, teams of high school students, coaches, and mentors work to build robots capable of competing in that year's game.
                 </p>
+
+                {button && <Button buttonStyle='btn--outline' link='https://www.firstinspires.org/programs/frc/'>Learn More!</Button>}
             </div>
             
 
