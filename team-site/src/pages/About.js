@@ -2,6 +2,7 @@ import React from 'react'
 import AboutPage from '../components/AboutPage'
 import { Hero } from '../components/Hero'
 import Footer from '../components/Footer'
+import { TextSection } from '../components/TextSection'
 
 function About() {
   return (
@@ -11,7 +12,12 @@ function About() {
             <h1>About</h1>
         </Hero>
 
-        <h1>why... hello there </h1>
+        <TextSection>
+          <h1>why... hello there!</h1>
+          <p>
+            This will be the 'About' page for our website!
+          </p>
+        </TextSection>
         <Footer/>
     </>
   )
