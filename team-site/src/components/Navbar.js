@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <>
         <nav className="navbar">
-            <Link to="/" className="navbar-logo">
+            <Link to="/" className="navbar-logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     <img src="/favicon.ico" alt="Logo" style={{ height: '60px' }} />
             </Link>
 
@@ -42,13 +42,15 @@ function Navbar() {
                   {isSubMenuOpen && (
                     <div className="submenu">
                       <Link to="/about/team" className="submenu-link">Team</Link>
-                      <Link to="/about/mission" className="submenu-link">Mentors</Link>
+                      <Link to="/about/mentors" className="submenu-link">Mentors</Link>
                     </div>
                   )}
                 </div>
-                
+
+                <Link to="/join">Join Us</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/test">Testing</Link>
+                <Link to="sponsors">Sponsors</Link>
+                
             </div>
 
             <div className="menu-icon" onClick={toggleMenu}>

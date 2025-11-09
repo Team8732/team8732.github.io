@@ -6,6 +6,7 @@ import TeamPic from './components/TeamPic';
 import Home from './pages/Home';
 import About from './pages/About';
 import AboutTeam from './pages/AboutTeam';
+import AboutMentors from './pages/AboutMentors';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element= {<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/about/team" element={<AboutTeam/>}/>
+          <Route path="/about/mentors" element={<AboutMentors/>}/>
         </Routes>
       </Router>
     </>
