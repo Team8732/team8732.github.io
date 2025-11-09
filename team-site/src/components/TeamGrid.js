@@ -27,7 +27,7 @@ function TeamGrid() {
   return (
     <div className="team-grid">
       {teamMembers.map((member, index) => (
-        <TeamCard key={index} {...member} />
+        <TeamCard key={index} {...member} style='card--light' />
       ))}
     </div>
   );
