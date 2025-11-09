@@ -3,22 +3,19 @@ import { Hero } from '../components/Hero'
 import Footer from '../components/Footer'
 import { TextSection } from '../components/TextSection'
 
-function About() {
+function AboutTeam() {
   return (
     <>
         <Hero image="/images/about-hero.png">
             <h1>About</h1>
         </Hero>
-
         <TextSection>
-          <h1>why... hello there!</h1>
-          <p>
-            This will be the 'About' page for our website!
-          </p>
+            <h1>Meet our Team!</h1>
+            <p>Team 8732 has some wonderful students on it. Get to know us!</p>
         </TextSection>
-        <Footer/>
+        <Footer></Footer>
     </>
   )
 }
 
-export default About
+export default AboutTeam
