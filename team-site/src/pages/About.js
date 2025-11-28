@@ -7,7 +7,7 @@ function About() {
   return (
     <>
         <Hero image="/images/about-hero.png">
-            <h1>About</h1>
+            <h1>About</h1> 
         </Hero>
 
         <TextSection>

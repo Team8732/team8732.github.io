@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import AboutTeam from './pages/AboutTeam';
 import AboutMentors from './pages/AboutMentors';
+import Join from './pages/Join.js'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/about/team" element={<AboutTeam/>}/>
           <Route path="/about/mentors" element={<AboutMentors/>}/>
+          <Route path="/join" element={<Join/>}/>
         </Routes>
       </Router>
     </>
