@@ -18,7 +18,7 @@ function TeamCard({ image, style, name, title, note }) {
           <p>{title}</p>
         </div>
         <div className={`card-back ${checkStyle}`}>
-          <p>{note}</p>
+          <p><b>{note}</b></p>
         </div>
       </div>
     </div>

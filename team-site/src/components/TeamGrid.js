@@ -7,7 +7,7 @@ const teamMembers = [
     image: '/images/profiles/shreya.png',
     name: 'Shreya',
     title: 'Code Lead',
-    note: 'i love syntax and solder',
+    note: 'fueled by syntax + solder fumes. also built this website! 💖',
   },
   {
     image: '/images/profiles/trinity.png',

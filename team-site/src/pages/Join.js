@@ -67,7 +67,8 @@ function Join() {
                 turning them into competitive results is something we all look
                 forward to!
             </p>
-            <h1>Sustained Impact</h1>
+            <br/>
+            <h2>Sustained Impact</h2>
             <p>
                 One of the greatest measures of success we hold at Trinity Force is
                 the wonderful things that students go on to do once they graduate

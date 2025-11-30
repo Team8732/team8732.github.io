@@ -8,6 +8,7 @@ import About from './pages/About';
 import AboutTeam from './pages/AboutTeam';
 import AboutMentors from './pages/AboutMentors';
 import Join from './pages/Join.js'
+import Contact from './pages/Contact.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/about/team" element={<AboutTeam/>}/>
           <Route path="/about/mentors" element={<AboutMentors/>}/>
           <Route path="/join" element={<Join/>}/>
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
       </Router>
     </>
