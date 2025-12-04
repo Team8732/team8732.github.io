@@ -1,7 +1,6 @@
-# Team 8732
 The website for my FIRST Robotics team! Built in React!
 
-Check it out at team8732.com!
+Check it out at [team8732.com](team8732.com)!
 
 <img width="1880" height="824" alt="image" src="https://github.com/user-attachments/assets/5fbbc4bc-3484-4d42-a4e1-435f086bc557" />
 
