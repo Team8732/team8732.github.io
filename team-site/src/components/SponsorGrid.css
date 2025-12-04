@@ -1,0 +1,17 @@
+.sponsor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+}
+
+.sponsor-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px;
+}

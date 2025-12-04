@@ -4,22 +4,22 @@ import './MentorGrid.css';
 
 const teamMembers = [
   {
-    image: '/images/profiles/shreya.png',
+    image: '/images/profiles/josh.png',
     name: 'Joshua Lewis',
-    title: 'title',
-    note: 'note at the back',
+    title: 'Mentor',
+    note: 'Happy birthday!',
   },
   {
     image: '/images/profiles/darius.png',
     name: 'Darius Blount',
-    title: 'title',
-    note: 'note at the back',
+    title: 'Mentor',
+    note: '10312!',
   },
   {
     image: '/images/profiles/brandon.png',
     name: 'Brandon Diaz',
-    title: 'title',
-    note: 'note at the back'
+    title: 'Mentor',
+    note: 'My favorite robot is Germy Cheese'
   }
 ];
 

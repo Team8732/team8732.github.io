@@ -18,13 +18,13 @@ function HomeInfo() {
 
             </div>
             <div className="image">
-                <img src="/images/trinity_logo.png" alt="Trinity Force Logo" />
+                <img src="/images/home-trinforce.png" alt="Trinity Force Logo" />
             </div>
         </section>
 
         <section className="info-bar org">
             <div className="image">
-                <img src="/images/trinity_logo.png" alt="Trinity Force Logo" />
+                <img src="/images/home-stemcycles.png" alt="Trinity Force Logo" />
             </div>
             <div className="text">
                 <h2>Our Organization</h2>
@@ -52,7 +52,7 @@ function HomeInfo() {
             
 
             <div className="image">
-                <img src="/images/trinity_logo.png" alt="Trinity Force Logo" />
+                <img src="/images/home-frc.png" alt="Trinity Force Logo" />
             </div>
         </section>
         

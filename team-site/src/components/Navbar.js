@@ -43,6 +43,7 @@ function Navbar() {
                     <div className="submenu">
                       <Link to="/about/team" className="submenu-link">Team</Link>
                       <Link to="/about/mentors" className="submenu-link">Mentors</Link>
+                      <Link to="/about/first" className="submenu-link">FIRST</Link>
                     </div>
                   )}
                 </div>

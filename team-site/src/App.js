@@ -7,8 +7,10 @@ import Home from './pages/Home';
 import About from './pages/About';
 import AboutTeam from './pages/AboutTeam';
 import AboutMentors from './pages/AboutMentors';
+import AboutFirst from './pages/AboutFirst.js';
 import Join from './pages/Join.js'
 import Contact from './pages/Contact.js';
+import Sponsors from './pages/Sponsors.js';
 
 function App() {
   return (
@@ -20,8 +22,11 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/about/team" element={<AboutTeam/>}/>
           <Route path="/about/mentors" element={<AboutMentors/>}/>
+          <Route path="/about/first" element={<AboutFirst/>}/>
           <Route path="/join" element={<Join/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="/sponsors" element={<Sponsors/>}/>
+
         </Routes>
       </Router>
     </>

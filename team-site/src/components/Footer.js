@@ -14,7 +14,6 @@ function Footer() {
             <div className="footer-grid">
                 <Link to="/contact">Contact</Link>
                 <Link to="/sponsors">Sponsors</Link>
-                <Link to="/sponsor-us">Sponsor Us</Link>
                 <Link to="/join">Join Us</Link>
             </div>
         </div>
@@ -25,9 +24,8 @@ function Footer() {
             <h3 className="footer-title"> <Link to="/about">About</Link></h3>
             <div className="footer-grid">
             <Link to="/about/team">Team</Link>
-            <Link to="/first">FIRST</Link>
+            <Link to="/about/first">FIRST</Link>
             <Link to="/about/mentors">Mentors</Link>
-            <Link to="/outreach">Outreach</Link>
             </div>
         </div>
 
